@@ -1,0 +1,38 @@
+.hcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.pcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes round-about {
+    0% {transform: rotateZ(0deg);}
+    99.99% {transform: rotateZ(360deg)}
+    100% {transform: rotateZ(0deg);}
+}
+
+.decor {
+    font-size: 150px;
+    animation: round-about 2s ease-in-out infinite;
+    filter: blur(2px);
+}
+p {
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.read-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

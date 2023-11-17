@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    margin-right: 125px;
+}
+
+.content-border {
+    border: 6px solid blue;
+    border-radius: 20px;
+    padding: 50px 50px 50px 50px;
+}
+
+h1 {
+    margin-left: 130px;
+}
+
+p {
+    font-size: 25px;
+    font-weight: 700;
+}

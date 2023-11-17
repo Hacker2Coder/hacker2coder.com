@@ -1,0 +1,36 @@
+.xenocheading {
+    border: 3px solid darkslategray;
+    border-width: 10px;
+    border-radius: 20px;
+    background-color: darkslategray;
+    font-weight: bold;
+    color: white;
+}
+
+.join-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.join-holder {
+    border: 2px solid darkslategray;
+    background-color: darkslategray;
+    border-radius: 20px;
+    padding: 100px 100px 100px 100px;
+}
+
+.join-holder:hover {
+    transform: translateY(-20px);
+    transition: 1s;
+}
+
+.light-mode {
+    background-color: white;
+    color: black;
+}
+.dark-mode {
+    background-color: darkslategray;
+    color: white;
+}

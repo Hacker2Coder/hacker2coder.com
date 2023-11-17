@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(36, 36, 36);
+}
+
+@keyframes rainbow-color {
+    0% {background-color: darkblue;}
+    25% {background-color: blueviolet;}
+    50% {background-color: purple;}
+    75% {background-color: midnightblue;}
+    100% {background-color: darkblue;}
+}
+.card {
+    color: black;
+    animation: rainbow-color 5s ease-out infinite;
+    color: white;
+}
+.card:hover {
+    background-color: rgb(67, 67, 67);
+    transform: translateY(-20px);
+    color: yellow;
+    transition: 1s;
+}
+.xenocheading {
+    border: 3px solid midnightblue;
+    border-width: 10px;
+    border-radius: 20px;
+    background-color: midnightblue;
+    font-weight: bold;
+    color: white;
+}

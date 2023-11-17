@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" width="device-width , initial-scale=1">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="stylesheet" type="text/css" href="bootstrap-5.3.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap-5.3.0-dist/css/bootstrap-grid.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap-5.3.0-dist/css/bootstrap-reboot.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap-5.3.0-dist/css/bootstrap-utilities.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Practice Login Page</title>
+</head>
+
+<body id="body" class="light-mode">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Xeno</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="signup.html">Sign up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="our-courses.html">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="ebooks.html">Ebooks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="masthead.html" aria-current="page" class="nav-link active">CREDITS</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit" id="search" onclick="apology()">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <h1><span class="xenocheading">Xeno Coder</span><span class="badge bg-secondary">Exclusive</span></h1>
+    <br>
+    <h3 style="font-size: 50px;">Welcome to Your Coding Family!</h3>
+    <p class="welcome-para" style="font-size: 25px; font-weight: 600;">Hello Coders, this website is an invitation for
+        you to achieve your dream job where you can freely practice your skills and turn your ideas into real-life
+        concepts and get paid 6-7 figures of income.</p>
+    <p class="info" style="font-size: 20px;">You have to pass the following critera to join us :-</p>
+    <ul class="criteria" style="font-size: 20px;">
+        <li>Must have achieved mastery in Web-Development.</li>
+        <li>Must be 15 years of age.</li>
+        <li>Must be a coding enthusiast.</li>
+        <li>Must be creative, consistent, and a coder from spirit.</li>
+    </ul>
+    <br>
+    <p style="font-size: 20px;">That's what all we need from you.</p>
+    <br>
+    <div class="join-container">
+        <div class="join-holder">
+            <button class="btn btn-outline-danger join">JOIN</button>
+        </div>
+    </div>
+</body>
+<script src="bootstrap-5.3.0-dist/js/bootstrap.js"></script>
+<scrpit src="bootstrap-5.3.0-dist/js/bootstrap.esm.js"></scrpit>
+<scrpit src="bootstrap-5.3.0-dist/js/bootstrap.bundle.js"></scrpit>
+<script>
+    function apology() {
+        const p = document.createElement("paragraph");
+        p = document.write("The search bar is not in service. Sorry for the inconvenience. Press the back arrow button above to continue to the site.");
+    };
+</script>
+
+</html>
